@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Cadastro de Nomes</title>
+    <style>
+    
+  .h1 {
+align-items: center
+    }
+        /* Estilos CSS para o formulário */
+        .form-container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px  solid #85a8c7; 
+            top:20px
+        }
+        .form-container input[type=text] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .form-container input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</h:head>
+
+<h:body>
+    
+    <div class="form-container">
+        <h:form>
+          <h1>Cadastro de Nomes</h1>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome"   />
+               <button type="submit">cadastrar </button> 
+               
+                <h3>Nomes Cadastrados:</h3>
+        </h:form>
+    </div>
+
+   
+    <ul>
+   
+    </ul>
+</h:body>
+
+</html>
